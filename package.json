@@ -1,6 +1,7 @@
 {
   "name": "drakon",
   "version": "1.0.0",
+  "private": "true",
   "description": "Software para gerenciar entorpecentes da DEGEPOL.",
   "main": "app.js",
   "scripts": {
