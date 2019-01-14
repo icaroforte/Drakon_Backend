@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://localhost/entorpecentes';
+var dbURI = 'mongodb://usertest:drakon12345@ds131323.mlab.com:31323/bdteste';
+//
 
 mongoose.connect(dbURI,{ useNewUrlParser: true });
 

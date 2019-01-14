@@ -21,8 +21,10 @@ app.get("/api", function(req, resp) {
 	resp.send("App! Funcionando teste");
 });
 
-app.listen(3000, function(){
-  console.log("Servidor rodando na porta 3000");
+var port = process.env.PORT || 3000;
+
+app.listen(port, ()=>{
+  console.log('Servidor iniciado na porta:' + port);
 });
 
 
